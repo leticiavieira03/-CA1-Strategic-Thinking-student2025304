@@ -28,6 +28,35 @@ Summarize initial findings to highlight the main factors affecting customer purc
 
 The project uses the Online Shoppers Purchasing Intention Dataset from the UCI Machine Learning Repository, which contains 12,330 user sessions with 18 features, including numerical and categorical variables such as page views, bounce rate, visitor type, and weekend activity. This dataset provides sufficient information to explore customer behavior and predict purchase intentions. 
 All analysis will follow the CRISP-DM methodology. The first semester focuses on data understanding, cleaning, and exploratory analysis, while the second semester will develop machine learning models to predict purchase probability and provide strategic insights for marketing. 
+Scope 
+The project uses the Online Shoppers Purchasing Intention Dataset from the UCI Machine Learning Repository, which contains 12,330 user sessions with 18 features, including numerical and categorical variables such as page views, bounce rate, visitor type, and weekend activity. This dataset provides sufficient information to explore customer behavior and predict purchase intentions. 
+All analysis will follow the CRISP-DM methodology. The first semester focuses on data understanding, cleaning, and exploratory analysis, while the second semester will develop machine learning models to predict purchase probability and provide strategic insights for marketing. 
+ 
+### Inclusions 
+-Data collection, cleaning, and preparation from the UCI Machine Learning Repository. 
+-Exploratory data analysis and visualization of behavioral trends. 
+-Development, testing, and evaluation of machine learning models. 
+-Summary of results and recommendations for strategic marketing actions. 
+### Exclusions 
+-Use of personal or sensitive data from real customers. 
+-Real-time deployment of predictive models. 
+-Financial forecasting or return-on-investment (ROI) analysis. 
+### Boundaries 
+-The project is limited to the dataset available in the UCI Machine Learning Repository. 
+-The analysis focuses only on user behavioral and session data. 
+
+## Methodology 
+The project follows the CRISP-DM methodology to ensure a structured and reproducible approach: 
+Business Understanding: Define objectives, understand the problem, and identify key behavioral questions regarding purchase intentions. 
+Data Understanding and Preparation: Clean and preprocess the dataset, handle missing or inconsistent values, and verify data quality. 
+
+
+
+
+
+
+
+
 
 ## Scope: 
  
