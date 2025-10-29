@@ -1,62 +1,77 @@
-# Predicting Customer Purchase Intentions  
+## Assignment Title: CA 1 – Capstone Project Proposal
+### Project Title: Predicting Customer Purchase Intentions
+
+## Student name: Leticia Andrade Vieira
 
 ## Introduction: 
          
- In recent years, the rapid growth of e-commerce has transformed how people buy products and services. This shift has created a new type of consumer: more demanding, connected, and seeking personalized experiences. With millions of users visiting online stores every day, companies are increasingly focused on understanding customer behaviour to improve marketing strategies and boost sales performance. 
-Each online interaction — from pages visited to time spent browsing — generates valuable data that can reveal important behavioural patterns. By analysing this data, businesses can predict the likelihood of a customer completing a purchase and design more effective marketing campaigns. 
-This project, “Predicting Customer Purchase Intentions in E-commerce Websites,” aims to apply data analytics and machine learning techniques to predict the probability of purchase based on user behaviour. The dataset used is from the UCI Machine Learning Repository, containing information about user sessions such as page views, bounce rates, and visitor types. The first phase of this Capstone Project focuses on data understanding and exploratory analysis, while the second phase will involve predictive model development and evaluation.
+No digital marketplace, e-commerce is essential for business success. Online sales are necessary to reach customers, strengthen brand presence, and drive growth. Consumer behavior has evolved: buyers are more demanding and expect personalized experiences.
+Every online interaction, from page views to session duration, generates behavioral data. Many companies fail to use this data effectively to predict purchase intentions, resulting in missed opportunities.
+This project applies data analysis and machine learning to estimate the likelihood of a purchase based on browsing behavior. The dataset, from the UCI Machine Learning Repository, includes over 12,000 sessions with features such as page views, bounce rates, and visitor types. Using CRISP-DM, the study analyzes these data to uncover behavioral patterns for data-driven marketing (Erliana, 2025; Alizamir et al., 2022).
 
 ## Business understanding 
- 
-In the e-commerce context, companies generate vast amounts of user interaction data, including page views, session duration, and visitor type. When properly analyzed, this information can reveal valuable patterns that indicate purchasing intentions. Understanding and predicting customer behavior is essential to improving marketing efficiency and enhancing the user experience. 
- 
-However, many organizations fail to fully utilize this data to anticipate customer actions, leading to missed sales opportunities and less effective marketing strategies. This project applies data analysis and machine learning techniques to identify behavioral patterns that influence purchase decisions. 
- 
-The findings aim to support strategic business thinking by providing insights that enable companies to design more personalized, efficient, and data-driven marketing approaches (Sakar and Kastro, 2018; Alizamir et al., 2022). 
+
+In e-commerce, companies generate large volumes of user interaction data such as page views, session duration, and visitor type. Properly analyzed, this information reveals patterns indicating purchase intentions. Understanding and predicting customer behavior is crucial to improving marketing efficiency and user experience.
+However, many organizations underuse this data, missing opportunities to anticipate customer actions and optimize marketing. This project applies data analysis and machine learning to identify behavioral patterns that influence purchase decisions, supporting data-driven marketing.
+The findings aim to provide insights that enable companies to design more personalized and effective strategies (Sakar & Kastro, 2018; Alizamir et al., 2022).
+
+## Problem Definition
+
+E-commerce businesses collect extensive behavioral data but often struggle to extract insights that enhance marketing effectiveness or predict customer decisions. The key problem is the insufficient conversion of these data into reliable indicators of purchase intention, leading to missed sales and suboptimal marketing investments. Addressing this gap with advanced analytics and machine learning can improve customer experience, targeting, and sales performance.
 
 ## Objectives 
-The main objective of the first phase of this Capstone Project is to explore and understand customer behavior data from e-commerce websites to identify the key factors influencing purchase intentions. This stage focuses on data exploration and preparation, establishing the foundation for predictive modeling and strategic business decision-making. 
+The main goal is to analyze e-commerce user behavior data and identify the factors that most influence purchase intentions, providing a basis for business-driven strategies. Specifically, the objectives are:
+* Review literature on customer purchase behavior and data-driven analytics in e-commerce for a theoretical foundation.
+* Prepare and examine data from the UCI repository to ensure analytical relevance and quality.
+* Conduct exploratory data analysis (EDA) to reveal patterns between variables and purchasing decisions.
+* Present initial findings on behavioral drivers and guide subsequent predictive modeling for marketing strategies.
+* The central business objective is to support increased e-commerce conversion and marketing efficiency through robust behavioral insights.
 
-This project aims to achieve the following specific objectives: 
-
-Review relevant literature on customer purchase behavior and predictive analytics in e-commerce to provide theoretical support for the study. 
-Collect, clean, and understand the dataset obtained from the UCI Machine Learning Repository, ensuring data quality and reliability. 
-Conduct exploratory data analysis (EDA) to identify behavioral patterns and relationships between key variables that may influence purchase decisions. 
-Summarize initial findings to highlight the main factors affecting customer purchase intentions and guide future predictive modeling. 
- 
 ## Scope 
 
-The project uses the Online Shoppers Purchasing Intention Dataset from the UCI Machine Learning Repository, which contains 12,330 user sessions with 18 features, including numerical and categorical variables such as page views, bounce rate, visitor type, and weekend activity. This dataset provides sufficient information to explore customer behavior and predict purchase intentions. 
-All analysis will follow the CRISP-DM methodology. The first semester focuses on data understanding, cleaning, and exploratory analysis, while the second semester will develop machine learning models to predict purchase probability and provide strategic insights for marketing. 
-Scope 
-The project uses the Online Shoppers Purchasing Intention Dataset from the UCI Machine Learning Repository, which contains 12,330 user sessions with 18 features, including numerical and categorical variables such as page views, bounce rate, visitor type, and weekend activity. This dataset provides sufficient information to explore customer behavior and predict purchase intentions. 
-All analysis will follow the CRISP-DM methodology. The first semester focuses on data understanding, cleaning, and exploratory analysis, while the second semester will develop machine learning models to predict purchase probability and provide strategic insights for marketing. 
+This two-semester project uses the Online Shoppers Purchasing Intention Dataset (over 12,000 sessions, 18 features: page views, bounce rate, visitor type, weekend activity). The first semester is devoted to data understanding and exploration; the second to predictive modeling and business recommendations, all following the CRISP-DM methodology.
  
 ### Inclusions 
--Data collection, cleaning, and preparation from the UCI Machine Learning Repository. 
--Exploratory data analysis and visualization of behavioral trends. 
--Development, testing, and evaluation of machine learning models. 
--Summary of results and recommendations for strategic marketing actions. 
+* Data collection and preparation
+* EDA and visualization of behaviors
+* Development and evaluation of predictive models
+* Reporting results and marketing recommendations
+
 ### Exclusions 
--Use of personal or sensitive data from real customers. 
--Real-time deployment of predictive models. 
--Financial forecasting or return-on-investment (ROI) analysis. 
+* Use of personal or sensitive data from real customers. 
+* Real-time deployment of predictive models. 
+* Financial forecasting or return-on-investment (ROI) analysis. 
+
 ### Boundaries 
--The project is limited to the dataset available in the UCI Machine Learning Repository. 
--The analysis focuses only on user behavioral and session data. 
+* The project is limited to the dataset available in the UCI Machine Learning Repository. 
+* The analysis focuses only on user behavioral and session data. 
 
 ## Methodology 
-The project follows the CRISP-DM methodology to ensure a structured and reproducible approach: 
-Business Understanding: Define objectives, understand the problem, and identify key behavioral questions regarding purchase intentions. 
-Data Understanding and Preparation: Clean and preprocess the dataset, handle missing or inconsistent values, and verify data quality. 
 
+The CRISP-DM model structures the analytical process. The project starts with understanding business context and key factors, followed by data cleaning and EDA to detect patterns. Supervised machine learning techniques (Logistic Regression, Decision Trees, Random Forest) will predict purchase intent, balancing interpretability and accuracy. Model evaluation will use accuracy, precision, recall, and F1-score, with results communicated clearly for both technical and business users.
 
+### Expected Deliverables by the End of Semester 2: 
+* A cleaned, documented dataset.
+* EDA report with key patterns.
+* Predictive models with performance metrics.
+* Actionable recommendations for marketing decisions.
 
+## Data Sources 
 
+The dataset used for this project is the Online Shoppers Purchasing Intention Dataset from the UCI Machine Learning Repository (Dua & Graff, 2019). It contains 12,330 user sessions and 18 features, including numerical and categorical variables such as page views, bounce rate, visitor type, and weekend activity. This publicly available dataset does not contain any personal or sensitive information and therefore does not require special permissions for use. It provides sufficient data for conducting exploratory and predictive analyses to identify behavioral patterns and purchasing intentions. All analysis will be conducted in Python using Jupyter Notebook. 
 
+## Ethical Considerations 
 
+This project does not involve the use of personal, confidential, or sensitive data. The dataset is publicly available for academic purposes and complies with ethical standards for research. All data will be used responsibly and exclusively for educational analysis. Proper attribution will be given to the data source, following the Harvard Referencing style, to ensure academic integrity and avoid plagiarism. Additionally, the project will prioritize accuracy, transparency, and ethical handling of data in all analytical stages (Zook et al., 2017). 
 
+## Conclusion
 
+This project provides a structured foundation to model and interpret e-commerce customer behavior, offering data-driven insights for better marketing decisions. By identifying core factors behind purchase intentions, it directly supports improved user targeting and conversion strategies. The next phases will develop and apply predictive models to operationalize these findings for real-world business value.
 
-## Scope: 
- 
+## References
+
+* Alizamir, S., Li, M. and Zhan, Y. (2022) ‘Predictive analytics in e-commerce: Understanding customer behavior through data mining and machine learning’, Journal of Business Analytics, 5(2), pp. 134–150.
+* Erliana, T. (2025) ‘Artificial intelligence applications in online retail: Enhancing customer engagement and sales prediction’, International Journal of Digital Business, 12(1), pp. 45–59.
+* Khanal, P., Shrestha, R. and Gautam, B. (2018) ‘Understanding predictive variables in supervised machine learning models’, Journal of Data Science and Analytics, 4(3), pp. 77–89.
+* Sakar, C.O. and Kastro, Y. (2018) ‘A real-time customer purchase prediction model for e-commerce’, Expert Systems with Applications, 97, pp. 89–100.
+* UCI Machine Learning Repository (2018) ‘Online Shoppers Purchasing Intention Dataset’. Available at: https://archive.ics.uci.edu/ml/datasets/online+shoppers+purchasing+intention+dataset (Accessed: 28 October 2025).
